@@ -355,9 +355,9 @@ p.content.filling_in_the_section {
 }
 
 @media (max-width: 767px) {
-    body {
+    /*body {
         width: 200%;
-    }
+    }*/
     .letter-spacing_footer {
         letter-spacing: 7px;
         margin-bottom: 0px;
