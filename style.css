@@ -32,10 +32,10 @@ html {
     /* width: max-content;*/
     padding-top: 23px;
     /*9.6vw;*/
-    padding-bottom: 76px;
+    padding-bottom: 84px;
     /*26vw;*/
-    padding-right: 44px;
-    padding-left: 44px;
+    padding-right: 18px;
+    padding-left: 18px;
     background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,11 +64,11 @@ html {
 }
 
 .logo {
-    margin-top: 48px;
+    margin-top: 10px;
 }
 
 .logo.logo_footer_surface {
-    margin-top: 164px;
+    margin-top: 72px;
 }
 
 .logo,
@@ -77,17 +77,17 @@ html {
 }
 
 .svg {
-    width: 45%;
+    width: 47%;
 }
 
 .path {
     fill: #ffffff;
 }
 
-.filling {
-    font-size: 3.5rem;
-    letter-spacing: 1px;
-    line-height: 62px;
+.font_style {
+    font-size: 1.68rem;
+    letter-spacing: 2px;
+    line-height: 29px;
     color: #ffffff;
     font-family: "Open Sans";
     font-weight: 700;
@@ -95,33 +95,39 @@ html {
 
 .recruited {
     align-self: flex-start;
-    padding-top: 210px;
+    padding-top: 76px;
 }
 
-.sports {
+.indent_for_title {
     /* padding-top: 0px; */
     /* padding-bottom: 91px; */
-    padding-left: 5.6rem;
+    padding-left: 2.8rem;
 }
 
 .download {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 89px;
+    /* margin-bottom: 26px; */
 }
 
 .app-store {
     background-color: #5e42b0;
     border-radius: 80px;
-    padding-top: 2.5vw;
-    padding-bottom: 8.2vw;
-    margin-top: 1vw;
+    /* padding-top: 1.5vw; */
+    /* padding-bottom: 8.2vw; */
+    /* margin-top: 3vw; */
+}
+
+.app-store:last-child {
+    margin-top: 11px;
 }
 
 .apple {
-    width: 3rem;
+    width: 1.4rem;
     /* height: 3.75rem; */
     fill: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 3px;
 }
 
 .store {
@@ -135,11 +141,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 1rem;
+    margin-left: 2px;
 }
 
 .button_name {
-    /*font-size: 2.5vw;*/
+    font-size: 2.5vw;
     letter-spacing: 0px;
     color: #ffffff;
     font-family: "Open Sans";
@@ -178,7 +184,7 @@ html {
     background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/footballer_192.png");
     background-repeat: no-repeat;
     background-size: 60%;
-    background-position: center 7.25rem;
+    background-position: center 4.25rem;
 }
 
 .players::before {
@@ -191,19 +197,20 @@ html {
     background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/basketballer_302.png");
     background-repeat: no-repeat;
     background-size: 96%;
-    background-position: center 6.75rem;
+    background-position: center 4.75rem;
 }
 
 .althlet {
-    font-size: 6.3rem;
+    font-size: 2.9rem;
     line-height: 60px;
     color: #e7e7e7;
+    letter-spacing: 0.2rem;
 }
 
 .chapter_number {
     display: inline-block;
     vertical-align: text-bottom;
-    font-size: 1.8rem;
+    font-size: 1rem;
     border-radius: 0.1rem;
     border-bottom: #5e42b0 solid 0.5rem;
     font-weight: 700;
@@ -212,61 +219,56 @@ html {
 
 .composition {
     display: inline-block;
-    font-size: 2.8rem;
+    font-size: 1.4rem;
     letter-spacing: 0.1rem;
     line-height: 4.25rem;
     color: #c1c1c1;
-    margin-left: 10px;
+    margin-left: 2px;
 }
 
 .content {
-    font-size: 1.87rem;
-    letter-spacing: 0.1rem;
-    line-height: 2.25rem;
+    font-size: 1rem;
+    /* letter-spacing: 0.2px; */
+    /* line-height: 1rem; */
     color: #000000;
     font-family: "Open Sans";
     font-weight: 400;
-    margin-right: 44px;
-    margin-top: 7vw;
-    padding-bottom: 7.7rem;
+    /* margin-right: 5px; */
+    margin-top: 16vw;
+    padding-bottom: 4.4rem;
 }
 
 .chapter_number.chapter_number.filling_in_the_section {
     margin-top: 0;
 }
-.find_contact {
-    padding-top: 14px;
-}
-h3.composition.worc.active {
-    margin-top: 8vw;
-    font-size: 3.4rem;
-    margin-left: 2.3rem;
+
+h3.composition.inner_left_indent.active {
+    margin-top: 2vw;
+    font-size: 1.7rem;
+    margin-left: 1rem;
     letter-spacing: 0.12em;
 }
 
-.growth h3.composition {
-    margin-top: 98px;
+h3.composition {
+    margin-top: 33px;
+    margin-bottom: -5px;
 }
 
-h3.composition {
-    margin-top: 89px;
-    margin-bottom: 33px;
-}
-.worc_it {
-    padding-top: 30px;
-}
 p.content.filling_in_the_section.contact {
-    padding-bottom: 9.7rem;
+    padding-bottom: 4.6rem;
+    padding-right: 29px;
 }
 
 p.content.filling_in_the_section {
     margin-top: 0px;
     /* padding-bottom: 0; */
     margin-bottom: 0;
-    padding-bottom: 7.04rem;
+    padding-bottom: 3.1rem;
+    padding-right: 19px;
 }
+
 .althlets {
-    height: 39rem;
+    height: 20rem;
 }
 
 .connection {
@@ -286,8 +288,9 @@ p.content.filling_in_the_section {
 }
 
 .filling_in_the_section {
-    margin-left: 43px;
-    margin-top: 45px;
+    margin-left: 22px;
+    /* padding-right: 45px; */
+    margin-top: 10px;
 }
 
 .growth_section {
@@ -299,18 +302,18 @@ p.content.filling_in_the_section {
     width: 100%;
 }
 
-.section_old {
+.posted_photo {
     position: relative;
 }
 
 .img_nomer {
     /*content: "01";*/
     position: absolute;
-    top: 180vw;
-    left: 44px;
+    top: 91vw;
+    left: 20px;
     background-color: #5e42b0;
-    width: 140px;
-    height: 140px;
+    width: 70px;
+    height: 63px;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -323,16 +326,16 @@ p.content.filling_in_the_section {
 }
 
 .cont_footer {
-    margin-top: 110px;
- }
+    margin-top: 54px;
+}
 
 .logo_footer {
     width: 26.9%;
     background-color: #5e42b0;
-    border-radius: 30px;
+    border-radius: 18px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 174px;
+    margin-top: 70px;
 }
 
 .text_footer {
@@ -349,17 +352,18 @@ p.content.filling_in_the_section {
 
 .content_color {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 14px;
     letter-spacing: 1px;
     margin-right: 0;
 }
 
 @media (max-width: 767px) {
-    /*body {
-        width: 200%;
+    /*!!
+    body {
+        width: 100%;
     }*/
-    .letter-spacing_footer {
-        letter-spacing: 7px;
+    .letter_spacing_footer {
+        letter-spacing: 5px;
         margin-bottom: 0px;
     }
 }
@@ -367,6 +371,11 @@ p.content.filling_in_the_section {
 @media screen and (min-width: 768px) {
     .logo {
         margin-top: 19px;
+    }
+    .logo_footer {
+        width: 19%;
+        margin-top: 109px;
+        margin-bottom: 34px;
     }
     .svg {
         width: 211px;
@@ -388,7 +397,7 @@ p.content.filling_in_the_section {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1919px) {
-    .filling {
+    .font_style {
         font-size: 4rem;
         letter-spacing: 3px;
         line-height: 67px;
@@ -403,63 +412,65 @@ p.content.filling_in_the_section {
     }
     .download {
         width: 655px;
-        margin-top: 165px;
+        margin-top: 189px;
         margin-bottom: 0px;
     }
-    .chapter_number{
-        
-font-size: 1.5rem;
-        
-margin-right: 0px;
+    .chapter_number {
+        font-size: 1.5rem;
+        margin-right: 0px;
     }
-
-.be_active p.content.filling_in_the_section.contact.p_active {
-    font-size: 2rem;
-    padding-top: 30px;
-    margin-left: 29px;
-    padding-bottom: 96px;
-}
+    .be_active p.content.filling_in_the_section.contact.p_active {
+        font-size: 2rem;
+        padding-top: 30px;
+        margin-left: 29px;
+        padding-bottom: 96px;
+    }
     .growth {
-    background-color: #5e42b0;
-    margin-top: 17px;
-}
-
-.growth p.content.filling_in_the_section {
+        background-color: #5e42b0;
+        /* margin-top: 17px; */
+    }
+    /*.growth p.content.filling_in_the_section {
     
 margin-bottom: 106px;
-}
+}*/
     .filling_in_the_section {
         margin-left: 38%;
         margin-top: 86px;
         margin-bottom: 0px;
-        padding-bottom: 0px;
+        /* padding-bottom: 0px; */
     }
     p .p_active {
-        
-font-size: 13rem;
+        font-size: 13rem;
     }
     p.content.filling_in_the_section {
-        
-padding-bottom: 11px;
-        
-margin-right: 8px;
-}
+        padding-bottom: 11px;
+        /* font-size: 2rem; */
+        margin-right: 0px;
+    }
+    .worc_it>.filling_in_the_section {
+        font-size: 1.5rem;
+        padding-top: 24px;
+        padding-bottom: 0px;
+    }
+    .find_contact>.filling_in_the_section {
+        font-size: 1.5rem;
+        padding-top: 24px;
+        padding-bottom: 0px;
+    }
     .footbal {
         margin-left: 1.5rem;
         width: 60%;
     }
-    .footb {
+    .left_indent {
         margin-left: 1.5rem;
     }
-    h3.composition.worc.active {
-        
-font-size: 5rem;
-        
-padding-left: 0;
-        
-margin-left: 1rem;
-        
-letter-spacing: 0.1rem;
+    h3.composition.inner_left_indent.active {
+        font-size: 5rem;
+        padding-left: 0;
+        margin-left: 1rem;
+        letter-spacing: 0.1rem;
+        /* padding-bottom: 32px; */
+        margin-top: 68px;
     }
     .composition {
         font-size: 2rem;
@@ -467,12 +478,14 @@ letter-spacing: 0.1rem;
         margin-left: 2px;
     }
     h3.composition {
-    margin-top: 41px;
-    margin-bottom: 0px;
-}
-.growth h3.composition {
-    margin-top: 22px;
-}
+        /* margin-top: 38px; */
+        padding-top: 4px;
+        padding-bottom: 10px;
+        /* margin-bottom: 0px; */
+    }
+    .growth h3.composition {
+        margin-top: 36px;
+    }
     .content {
         font-size: 1.14rem;
         padding-bottom: 119px;
@@ -488,7 +501,7 @@ letter-spacing: 0.1rem;
     }
     .players::before {
         background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/basketballer_436.png");
-        background-position: right  -232%;
+        background-position: right -109%;
         /* background-position-x: right; */
         background-repeat-y: 1%;
         background-size: 58%;
@@ -499,8 +512,9 @@ letter-spacing: 0.1rem;
     .contact {
         margin-left: 44px;
     }
-    .worc {
+    .inner_left_indent {
         padding-left: 44px;
+        /* padding-top: 40px; */
     }
     .footer {
         background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1280.jpg");
@@ -508,28 +522,26 @@ letter-spacing: 0.1rem;
     .content_color {
         color: #ffffff;
     }
-    .filling {
+    .font_style {
         text-align: center;
     }
     .recruited {
         padding-left: 2.8rem;
     }
-    .recr {
+    .backing_title {
         text-align: start;
-        padding-left: 2.8rem;
-        padding-top: 109px;
+        padding-left: 3.9rem;
+        padding-top: 37px;
         margin-bottom: 15px;
     }
-    .sports {
-        padding-left: 9rem;
+    .indent_for_title {
+        padding-left: 11rem;
         padding-top: 0px;
         margin-top: 0px;
     }
-
-.find_contact {
-    padding-top: 0px;
-}
-
+    .find_contact {
+        padding-top: 0px;
+    }
     .img_nomer {
         top: 65vw;
         left: 34px;
@@ -541,7 +553,7 @@ letter-spacing: 0.1rem;
 
 }
 @media screen and (min-width: 1920px) {
-    .filling {
+    .font_style {
         font-size: 5px;
         letter-spacing: 5px;
         /*line-height: 31px;*/
@@ -572,7 +584,7 @@ letter-spacing: 0.1rem;
         width: 50%;
     }
     
-    .footb {
+    .left_indent {
         margin-left: 5.3rem;
     }
     
@@ -592,7 +604,7 @@ letter-spacing: 0.1rem;
         background-size: 100%;
     }
     
-    .section_old {
+    .posted_photo {
         display: flex;
     }
     
@@ -611,7 +623,7 @@ letter-spacing: 0.1rem;
         height: 144px;
     }
     
-    .worc {
+    .inner_left_indent {
         padding-left: 0;
     }
     
